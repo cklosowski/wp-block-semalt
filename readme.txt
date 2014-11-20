@@ -4,7 +4,7 @@ Tags: semalt, bots, crawlers, google analytics
 Requires at least: 3.0
 Tested up to: 4.1
 Stable tag: 1.0
-Donate link: https://wp-push.com/donations/
+Donate link: https://filament-studios.com/donate
 License: GPLv2 or later
 
 Simply uses the HTTP_REFERER to determine if it's from 'Semalt', and blocks it with a nice 403 "Unauthorized" response.
@@ -12,6 +12,10 @@ Simply uses the HTTP_REFERER to determine if it's from 'Semalt', and blocks it w
 == Description ==
 
 Pretty simple. Just blocks semalt.semalt.com with a 403.
+
+If your web host uses a web server that doesn't support .htaccess, then this plugin is for you.
+
+If your host supports .htaccess, you should try https://wordpress.org/plugins/block-semalt, as this is the best method.
 
 == Installation ==
 
@@ -28,6 +32,8 @@ Pretty simple. Just blocks semalt.semalt.com with a 403.
 = I still see semalt sometimes =
 
 This plugin was a way to try and catch the low hanging fruit...I'm relying on the 'HTTP_REFERER' which isn't always reliable. Most of the time it will be, but not always.
+
+If your host supports .htaccess, you can try using https://wordpress.org/plugins/block-semalt as a more complete solution.
 
 == Screenshots ==
 None at this time
